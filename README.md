@@ -1,4 +1,4 @@
-# 🍎 OFF-Pipeline
+# 🍎 OpenFoodFacts-Pipeline
 
 Un sistema modular diseñado para consumir datos de la API de OpenFoodFacts (OFF), procesarlos y almacenarlos en PostgreSQL con capacidades de vectorización preparadas para el futuro.
 
