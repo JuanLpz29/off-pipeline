@@ -8,5 +8,6 @@ setup(
         "sqlalchemy>=1.4.0",
         "psycopg2-binary>=2.9.0",
         "python-dotenv>=0.19.0",
+        "openfoodfacts>=0.1.7",
     ],
 )

@@ -1,5 +1,7 @@
 README.md
 setup.py
+off_client/__init__.py
+off_client/client.py
 off_pipeline.egg-info/PKG-INFO
 off_pipeline.egg-info/SOURCES.txt
 off_pipeline.egg-info/dependency_links.txt
