@@ -233,16 +233,6 @@ pip install -e .
 
 ### **3. Flujo de Procesamiento**
 
-```mermaid
-graph LR
-    A[OpenFoodFacts API] --> B[OFFClient]
-    B --> C[search_products()]
-    C --> D[Product Data]
-    D --> E[PostgresStorage]
-    E --> F[upsert_product()]
-    F --> G[PostgreSQL DB]
-```
-
 #### **Pasos Detallados:**
 
 1. **🔐 Inicialización:** Se crea instancia de `OFFClient` con validación de `user_agent`
