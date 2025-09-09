@@ -9,5 +9,6 @@ setup(
         "psycopg2-binary>=2.9.0",
         "python-dotenv>=0.19.0",
         "openfoodfacts>=0.1.7",
+        "pandas>=2.0.0",
     ],
 )

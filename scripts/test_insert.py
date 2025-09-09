@@ -9,10 +9,10 @@ load_dotenv()  # asegúrate de cargar .env
 storage = PostgresStorage()
 
 sample = {
-    "code": "000000001",
-    "name": "Granola Tutorial",
-    "ingredients": "avena, nueces, pasas",
-    "calories": 350.0
+    "code": "6294003539054",
+    "name": "Kitkat",
+    "ingredients": "chocolate, leche, azúcar, mantequilla de cacao",
+    "calories": 535.0
 }
 
 storage.upsert_product(sample)
